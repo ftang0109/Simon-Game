@@ -35,6 +35,7 @@ body {
   border-radius: 20%;
   font-family: 'Press Start 2P',cursive;
   font-size: 1.5rem;
+  color:black;
 }
 
 .start {
@@ -92,4 +93,15 @@ body {
 #buttongroup{
   display:flex;
   justify-content: center;
+}
+
+/* To adjust tablet and smartphone size to enhance user experience */
+@media (max-width: 1104px){
+
+  .btn {
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+  }
+
 }
