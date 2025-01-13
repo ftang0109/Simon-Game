@@ -95,13 +95,25 @@ body {
   justify-content: center;
 }
 
-/* To adjust tablet and smartphone size to enhance user experience */
+/*To adjust tablet and smartphone size to enhance user experience */
 @media (max-width: 1104px){
 
   .btn {
-    margin: 15px;
+    margin: 5px; /*need to adjust from 15 px to 5 px* to avoid not working for Ipad certain model*/
     height: 150px;
     width: 150px;
   }
 
 }
+
+/*workaround css to resize button to support all browser, including Safari*/
+
+/*
+.resizebtn{
+
+  margin: 15px;
+  height: 150px;
+  width: 150px;
+  
+}
+*/
