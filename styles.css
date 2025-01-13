@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/* start button css*/
+#start {
+  /*margin: 25px;*/
+  height: 50px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 20%;
+  font-family: 'Press Start 2P',cursive;
+  font-size: 1.5rem;
+}
+
+.start {
+  background-color: orange;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+  transition-duration: .5s; /* need to set it so that it won't transit so fast*/
+}
+
+#level-status {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  /* resdesign the margin from margin:5% to margin left and right only*/
+  margin-left:  5%;
+  margin-right: 5%;
+  color: #FEF2BF;
+}
+
+/* use roboto font from google to show copyright*/
+#footer {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2rem;
+  margin-top:  1%;
+  color: #FEF2BF;
+}
+
+/* setup button group display flex box */
+#buttongroup{
+  display:flex;
+  justify-content: center;
+}
